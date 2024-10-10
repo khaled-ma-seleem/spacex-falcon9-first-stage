@@ -26,6 +26,8 @@ The dataset used in this analysis contains detailed information about SpaceX Fal
 - **Latitude**: The latitude of the launch site.
 - **Class**: The binary outcome of the first stage landing (1 for success, 0 for failure).
 
+![SpaceX Falcon 9 Design](pictures/spacex_falcon9_design.jpg)
+
 ### Analysis Questions
 1. **What is the success rate of Falcon 9 first-stage landings?**
 2. **How does the payload mass affect the landing success?**
