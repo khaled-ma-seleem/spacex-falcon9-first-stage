@@ -6,25 +6,28 @@
 SpaceX's Falcon 9 rocket has revolutionized space travel with its reusable rocket technology, significantly reducing the cost of access to space. The Falcon 9 is a two-stage rocket, with the first stage designed to return to Earth and be reused in subsequent missions. This first stage is equipped with landing legs and grid fins to control its descent and ensure a safe landing. This notebook aims to analyze the performance and outcomes of Falcon 9 first-stage landings, focusing on various factors such as payload masses, boosters reused counts, and the impact of different orbits and launch sites.
 
 ### Dataset Description
-The dataset used in this analysis contains detailed information about SpaceX Falcon 9 launches. The key columns in the dataset include:
-- **FlightNumber**: The flight number of the Falcon 9 launch.
-- **Date**: The date of the launch.
-- **BoosterVersion**: The version of the Falcon 9 booster used.
-- **PayloadMass**: The mass of the payload in kilograms.
-- **Orbit**: The orbit in which the payload was deployed.
-- **LaunchSite**: The site from which the launch took place.
-- **Outcome**: The outcome of the first stage landing (e.g., success or failure).
-- **Flights**: The number of flights the booster has completed.
-- **GridFins**: Whether grid fins were used.
-- **Reused**: Whether the booster was reused.
-- **Legs**: Whether landing legs were used.
-- **LandingPad**: The landing pad used for the booster recovery.
-- **Block**: The block number of the booster.
-- **ReusedCount**: The number of times the booster has been reused.
-- **Serial**: The serial number of the booster.
-- **Longitude**: The longitude of the launch site.
-- **Latitude**: The latitude of the launch site.
-- **Class**: The binary outcome of the first stage landing (1 for success, 0 for failure).
+The dataset used in this analysis contains detailed information about SpaceX Falcon 9 launches. The dataset includes:
+
+| **Field**        | **Description**                                                                 |
+|------------------|---------------------------------------------------------------------------------|
+| **FlightNumber** | The flight number of the Falcon 9 launch.                                       |
+| **Date**         | The date of the launch.                                                         |
+| **BoosterVersion** | The version of the Falcon 9 booster used.                                     |
+| **PayloadMass**  | The mass of the payload in kilograms.                                           |
+| **Orbit**        | The orbit in which the payload was deployed.                                    |
+| **LaunchSite**   | The site from which the launch took place.                                      |
+| **Outcome**      | The outcome of the first stage landing (e.g., success or failure).              |
+| **Flights**      | The number of flights the booster has completed.                                |
+| **GridFins**     | Whether grid fins were used.                                                    |
+| **Reused**       | Whether the booster was reused.                                                 |
+| **Legs**         | Whether landing legs were used.                                                 |
+| **LandingPad**   | The landing pad used for the booster recovery.                                  |
+| **Block**        | The block number of the booster.                                                |
+| **ReusedCount**  | The number of times the booster has been reused.                                |
+| **Serial**       | The serial number of the booster.                                               |
+| **Longitude**    | The longitude of the launch site.                                               |
+| **Latitude**     | The latitude of the launch site.                                                |
+| **Class**        | The binary outcome of the first stage landing (1 for success, 0 for failure).   |
 
 ![SpaceX Falcon 9 Design](pictures/spacex_falcon9_design.jpg)
 
